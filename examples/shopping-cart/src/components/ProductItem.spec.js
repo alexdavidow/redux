@@ -27,13 +27,14 @@ describe('ProductItem component', () => {
     productProps = {
       title: 'Product 1',
       price: 9.99,
-      inventory: 6
+      inventory: 6,
+      description: 'Product 1 description'
     }
   })
 
   it('should render product', () => {
     const { product } = setup(productProps)
-    expect(product.props()).toEqual({ title: 'Product 1', price: 9.99, quantity: 6 })
+    expect(product.props()).toEqual({ title: 'Product 1', price: 9.99, quantity: 6, description: 'product 1 description' })
   })
 
   it('should render Add To Cart message', () => {
