@@ -1,5 +1,9 @@
 [
   {"id": 1, "title": "Bitter Lettuces", "price": 15, "inventory": 2, "description": "raw honey, fennel, wax beans"},
-  {"id": 2, "title": "H&M T-Shirt White", "price": 10.99, "inventory": 10},
-  {"id": 3, "title": "Charli XCX - Sucker CD", "price": 19.99, "inventory": 5}
+  {"id": 2, "title": "Ribollita", "price": 14, "inventory": 10, "description": "tuscan white bean soup with black cabbage, breadcrumbs, and parm"},
+  {"id": 3, "title": "Cabbage Salad", "price": 14, "inventory": 5, "description": "mutsu apple, pecorino, black pepper"},
+	{"id": 4, "title": "Autumn Squash", "price": 18, "inventory": 5, "description": "stracciatella, pumpkin seeds"},
+	{"id": 5, "title": "Warm Market Beans", "price": 16, "inventory": 5, "description": "sage, garlic"},
+	{"id": 6, "title": "Roasted Mushrooms", "price": 17, "inventory": 5, "description": "parsley, garlic, lemon"},
+	{"id": 7, "title": "Sauteed Market Greens", "price": 12, "inventory": 5, "description": "garlic, lemon"}
 ]

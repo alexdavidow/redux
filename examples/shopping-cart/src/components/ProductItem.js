@@ -20,7 +20,7 @@ const ProductItem = ({ product, onAddToCartClicked }) => (
 ProductItem.propTypes = {
   product: PropTypes.shape({
     title: PropTypes.string.isRequired,
-    description: PropTypes.string.isRequired,
+    description: PropTypes.string,
     price: PropTypes.number.isRequired,
     inventory: PropTypes.number.isRequired
   }).isRequired,
